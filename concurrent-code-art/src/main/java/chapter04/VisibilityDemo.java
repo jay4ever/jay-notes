@@ -11,27 +11,20 @@ public class VisibilityDemo {
 
     public static void main(String[] args) throws InterruptedException {
 
+        new Thread(() -> {
+            System.out.println("=========start");
+            while(!initFlag) {
 
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                System.out.println("=========start");
-                while(!initFlag) {
-
-                }
-                System.out.println("=========end");
             }
+            System.out.println("=========end");
         }).start();
 
         Thread.sleep(2000);
 
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                System.out.println("=========assign");
-                initFlag = true;
-                System.out.println("=========complete");
-            }
+        new Thread(() -> {
+            System.out.println("=========assign");
+            initFlag = true;
+            System.out.println("=========complete");
         }).start();
 
     }
