@@ -14,7 +14,7 @@ public class VolatileDemo {
         t2.start();
         t1.join();
         t2.join();
-        System.out.println(Run.num);
+//        System.out.println(Run.num);
     }
 
     public static class Run implements Runnable {

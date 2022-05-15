@@ -1,13 +1,11 @@
 package chapter01;
 
-public class ConcurrencyTest {
+public class ContextSwitch {
 
     private static final long count = 1000000000l;
 
     public static void main(String[] args) throws InterruptedException {
-
         concurrency();
-
         serial();
     }
 
@@ -18,7 +16,6 @@ public class ConcurrencyTest {
             for (long i = 0; i < count; i++) {
                 a += 5;
             }
-            System.out.println(a);
         });
         thread.start();
         int b = 0;
