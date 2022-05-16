@@ -1,17 +1,14 @@
-import chapter04.SleepUtils;
+import session1.SleepUtils;
 
 public class Test {
     static A obj = new A();
 
-    public static void main(String[] args) throws InterruptedException {
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    getLockAndTimeWait();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+    public static void main(String[] args) {
+        new Thread(() -> {
+            try {
+                getLockAndTimeWait();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
         }).start();
         new Thread(new Runnable() {

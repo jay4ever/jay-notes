@@ -1,4 +1,4 @@
-package chapter04;
+package session1;
 
 public class VisibilityDemo {
 

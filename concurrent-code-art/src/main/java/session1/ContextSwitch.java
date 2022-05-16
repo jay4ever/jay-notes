@@ -1,4 +1,4 @@
-package chapter01;
+package session1;
 
 public class ContextSwitch {
 
