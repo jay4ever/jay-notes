@@ -113,11 +113,16 @@ Setter注入（Spring作者在without EJB的）
 
 ## Spring IoC容器 的 依赖查找
 
-### 根据Bean名称查找
-
-#### 实时查找
-
-#### 延迟查找
+- 根据Bean名称查找
+  - 实时查找
+  - 延迟查找
+- 根据Bean类型查找
+  - 单个Bean对象
+  - 集合Bean对象
+- 根据Bean名称+类型查找
+- 根据Java注解查找
+  - 单个Bean对象
+  - 集合Bean对象
 
 # 面试题
 

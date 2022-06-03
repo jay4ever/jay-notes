@@ -1,4 +1,4 @@
-package spring.core.bean;
+package spring.core.overview.bean;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
