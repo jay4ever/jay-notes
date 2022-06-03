@@ -30,15 +30,15 @@
 
 ## Spring对Java EE API的整合
 
-![image-20220509233443339](/Users/geejaywoo/Library/Application Support/typora-user-images/image-20220509233443339.png)
+![image-20220509233443339](./spring-core/image-20220509233443339.png)
 
-![image-20220509233651287](/Users/geejaywoo/Library/Application Support/typora-user-images/image-20220509233651287.png)
+![image-20220509233651287](./spring-core/image-20220509233651287.png)
 
-![image-20220509233934762](/Users/geejaywoo/Library/Application Support/typora-user-images/image-20220509233934762.png)
+![image-20220509233934762](./spring-core/image-20220509233934762.png)
 
 ## Spring所用到的编程模型
 
-![image-20220510215550677](/Users/geejaywoo/Library/Application Support/typora-user-images/image-20220510215550677.png)
+![image-20220510215550677](./spring-core/image-20220510215550677.png)
 
 ## Spring Framework有哪些核心模块
 
