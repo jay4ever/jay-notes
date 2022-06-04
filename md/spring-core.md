@@ -117,6 +117,20 @@ Setter注入（Spring作者在without EJB的）
 - 容器内建Bean对象（environment）
 - 容器内建依赖（objectFactory， beanFactory）
 
+## Spring ioc配置元信息
+
+- Bean定义配置
+  - 基于XML文件
+  - 基于Properties文件
+  - 基于Java注解
+  - 基于JavaApi
+- ioc容器配置
+  - 基于XML文件
+  - 基于Java注解
+  - 基于JavaApi
+- 外部化属性配置
+  - 基于Java注解
+
 # 面试题
 
 ## Spring作为IoC容器有什么优势
