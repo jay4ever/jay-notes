@@ -1,4 +1,4 @@
-package spring.core.overview.lookup.annotation;
+package spring.core.overview.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

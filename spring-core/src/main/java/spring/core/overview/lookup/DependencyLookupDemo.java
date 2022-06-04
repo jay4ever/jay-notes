@@ -4,8 +4,8 @@ import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import spring.core.overview.lookup.annotation.Super;
-import spring.core.overview.lookup.domain.User;
+import spring.core.overview.annotation.Super;
+import spring.core.overview.domain.User;
 
 import java.util.Map;
 

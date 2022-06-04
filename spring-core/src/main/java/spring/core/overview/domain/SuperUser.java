@@ -1,7 +1,7 @@
-package spring.core.overview.lookup.domain;
+package spring.core.overview.domain;
 
 import lombok.Data;
-import spring.core.overview.lookup.annotation.Super;
+import spring.core.overview.annotation.Super;
 
 @Data
 @Super

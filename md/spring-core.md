@@ -111,18 +111,11 @@ Setter注入（Spring作者在without EJB的）
 - set 和 get方法更加灵活可变，在方法里面进行逻辑处理
 - set方法的执行顺序无法确定
 
-## Spring IoC容器 的 依赖查找
+## Spring ioc依赖来源
 
-- 根据Bean名称查找
-  - 实时查找
-  - 延迟查找
-- 根据Bean类型查找
-  - 单个Bean对象
-  - 集合Bean对象
-- 根据Bean名称+类型查找
-- 根据Java注解查找
-  - 单个Bean对象
-  - 集合Bean对象
+- 自定义Bean
+- 容器内建Bean对象（environment）
+- 容器内建依赖（objectFactory， beanFactory）
 
 # 面试题
 

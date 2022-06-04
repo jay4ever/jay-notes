@@ -1,4 +1,4 @@
-package spring.core.overview.lookup.domain;
+package spring.core.overview.domain;
 
 import lombok.Data;
 
